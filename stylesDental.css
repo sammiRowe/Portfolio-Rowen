@@ -1,0 +1,144 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Playfair Display', serif;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 0px;
+}
+
+#ideaContainer {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#ideaContainer > div {
+    width: 80%;
+}
+
+/*top menu bar, footer*/
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#menu {
+    grid-column-start: 2;
+    justify-self: end;
+    padding-right: 7%;
+    padding-top: 2%;
+}
+
+#footerMenu {
+    padding-left: 7%;
+    padding-bottom: 3%;
+}
+
+#menu > a, #footerMenu > a {
+    padding-right: 20pt;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #669E59;
+}
+/*top menu bar, footer*/
+
+.title {
+    padding-top: 3%;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-left: 1%;
+}
+
+.title2 {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image {
+    width: 85%;
+    height: auto;
+    margin: auto;
+}
+
+#wireFrame {
+    width: 90%;
+    padding-left: 5%;
+}
+
+article {
+    width: 65%;
+    margin: auto;
+}
+
+#splitPage {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 75%;
+    margin: auto;
+}
+
+.largeP {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.opener {
+    text-align: center;
+}
+
+#topHeader {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10%;
+}
+
+.need {
+    padding-left: 5%;
+}
+
+#horizImage {
+    width: 100vw;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    #container {
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 0px;
+    } 
+    #ideaContainer {
+        display: grid;
+        grid-template-columns: auto;
+        width: 85%;
+        margin: auto;
+    }
+    #ideaContainer > div {
+        width: 95%;
+    }
+    article {
+        width: 85%;
+        margin: auto;
+    }
+    .title {
+        margin-left: 3%;
+    }  
+    #personas {
+        margin-left: 3%;
+    }
+}

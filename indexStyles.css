@@ -1,0 +1,179 @@
+body {
+    background-color: #f6f6f6;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+
+/*top menu bar, footer*/
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#menu {
+    grid-column-start: 2;
+    justify-self: end;
+    padding-right: 7%;
+    padding-top: 3%;
+}
+
+#footerMenu {
+    padding-left: 7%;
+    padding-bottom: 5%;
+    grid-row-start: 11;
+}
+
+#contact {
+    font-size: 30px;
+}
+
+#menu > a, #footerMenu > a {
+    padding-right: 20pt;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #669E59;
+}
+/*top menu bar, footer*/
+
+#conMigo, #dentalIn {
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+}
+
+#picImgWidth {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 10px;
+    width: 90vw;
+    margin: auto;
+    font-size: 20px;
+}
+
+#picImgWidth > div > a {
+    font-weight: 800;
+}
+
+#dentistPic {
+    width: 50vw;
+}
+
+h3 {
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 2%;
+}
+
+#intro2 {
+    background-image: url("./images/Design4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#introDesign {
+    grid-column-start: 1;
+    width: 100%;
+}
+
+#intro > div > h2 {
+    grid-column-start: 2;
+    font-size: 40px;
+    margin: 14% 0% 2% 0%;
+    padding-left: 5%;
+}
+
+#intro > div > h4 {
+    grid-column-start: 2;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-bottom: 0px;
+    padding-left: 5%;
+    width: 75%;
+}
+
+#intro > div > h5 {
+    grid-column-start: 2;
+    font-size: 20px;
+    margin-top: 1%;
+    font-weight: 600;
+    padding-left: 5%;
+    width: 75%;
+}
+
+.line {
+    height: 1px;
+    background: grey;
+    width: 85%;
+    margin: auto;
+}
+
+/*iPad screen sizes*/
+@media only screen and (max-width: 964px) {
+    #introDesign {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*phone screen sizes*/
+@media only screen and (max-width: 750px) {
+    #conMigo, #dentalIn {
+        width: 90vw;
+        margin: auto;
+        height: auto;
+    }
+    
+    #introDesign {
+        display: none;
+    }
+
+    #intro {
+        display: block;
+        margin-top: 3%;
+    }
+
+    #intro2 {
+        background-image: url("./images/Design4.png");
+        background-size: 300px 100%;
+    }
+
+    #intro > div > h2, #intro > div > h4 {
+        width: 60%;
+        margin: auto;
+        padding: 5% 0% 4% 0%;
+    }
+    #picImgWidth {
+        display: block;
+        width: 90vw;
+        margin: auto;
+        font-size: 15px;
+    }
+    
+    #picImgWidth > div > a {
+        font-weight: 800;
+    }
+
+    #dentistPic {
+        width: 85vw;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    h3 {
+        font-size: 30px;
+        margin-bottom: 0%;
+    }
+}
+
