@@ -141,4 +141,15 @@ article {
     #personas {
         margin-left: 3%;
     }
+    #splitPage {
+        display: block;
+        width: 85%;
+        margin: auto; 
+    }
+    #wireFrame {
+        padding-top: 3%;
+    }
+    .image {
+        width: 95%;
+    }
 }
