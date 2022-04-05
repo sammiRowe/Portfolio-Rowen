@@ -78,7 +78,7 @@ h3 {
 }
 
 #intro2 {
-    background-image: url("./images/Design4.png");
+    background-image: url("./images/Design42.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -101,7 +101,7 @@ h3 {
     margin-top: 1%;
     margin-bottom: 0px;
     padding-left: 5%;
-    width: 75%;
+    width: 85%;
 }
 
 .button {
@@ -139,6 +139,28 @@ h3 {
         width: 100%;
         height: 100%;
     }
+    #intro2 {
+        background-size: 80% 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #intro > div > h2 {
+        font-size: 32px;
+    }
+    
+    #intro > div > h4 {
+        font-size: 22px;
+        width: 80%;
+    }
+    #intro > div > h5 {
+        font-size: 18px;
+        width: 80%;
+        margin-bottom: 0%;
+    }
+    .para {
+        width: 60%;
+    }
 }
 
 /*phone screen sizes*/
@@ -160,7 +182,8 @@ h3 {
 
     #intro2 {
         background-image: url("./images/Design4.png");
-        background-size: 380px 320px;
+        background-size: 380px 300px;
+        padding-top: 2%;
     }
 
     #intro > div > h2, #intro > div > h4, #intro > div > h5 {
