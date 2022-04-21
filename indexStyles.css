@@ -39,7 +39,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #669E59;
+    color: #517F48;
 }
 /*top menu bar, footer*/
 
@@ -105,7 +105,7 @@ h3 {
 }
 
 .button {
-    background-color: #669E59; 
+    background-color: #517F48; 
     border: none;
     font-family: 'Playfair Display', serif;
     color: white;
