@@ -20,6 +20,17 @@ body {
     width: 80%;
 }
 
+#mockVid {
+    width: 40%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+video {
+    width: 400px; 
+    height: 500px;
+}
+
 /*top menu bar, footer*/
 .header {
     display: grid;
@@ -151,5 +162,22 @@ article {
     }
     .image {
         width: 95%;
+    }
+    #mockVid {
+        width: 70%;
+    }
+    video {
+        width: 400px; 
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #mockVid {
+        width: 80%;
+    }
+    video {
+        width: 300px; 
+        height: 400px;
     }
 }
