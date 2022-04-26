@@ -41,6 +41,11 @@ a:link, a:visited {
 a:hover {
     color: #517F48;
 }
+
+#intro2 {
+    width: 80vw;
+    margin: auto;
+}
 /*top menu bar, footer*/
 
 #conMigo, #dentalIn {
@@ -71,37 +76,16 @@ h3 {
     margin-bottom: 0%;
 }
 
-#intro {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-top: 2%;
-}
-
-#intro2 {
-    background-image: url("./images/Design42.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#introDesign {
-    grid-column-start: 1;
-    width: 100%;
-}
-
 #intro > div > h2 {
-    grid-column-start: 2;
     font-size: 40px;
     margin: 14% 0% 2% 0%;
-    padding-left: 5%;
 }
 
 #intro > div > h4 {
-    grid-column-start: 2;
     font-size: 30px;
     margin-top: 1%;
     margin-bottom: 0px;
-    padding-left: 5%;
-    width: 85%;
+    width: 60%;
 }
 
 .button {
@@ -118,11 +102,9 @@ h3 {
   }
 
 #intro > div > h5 {
-    grid-column-start: 2;
     font-size: 20px;
     margin-top: 1%;
     font-weight: 600;
-    padding-left: 5%;
     width: 75%;
 }
 
