@@ -95,7 +95,7 @@ a:hover {
     height: 1px;
     background: grey;
     grid-column-start: 2; 
-    grid-row-start: 8;
+    grid-row-start: 9;
 }
 
 .item-2, .item-3 {
@@ -117,7 +117,7 @@ a:hover {
 .item-9 {
     grid-column-start: 2;
     grid-row-start: 5; 
-    grid-row-end: 8;
+    grid-row-end: 9;
     font-weight: 0,500;
     font-size: 19px;
     padding-left: 8%;
@@ -130,7 +130,7 @@ br {
 
 .item-10 {
     grid-column-start: 1;
-    grid-row-start: 8;
+    grid-row-start: 9;
     font-weight: 800;
     font-size: 35px;
     justify-self: end;
@@ -139,7 +139,7 @@ br {
 
 .item-12 {
     grid-column-start: 1;
-    grid-row-start: 9;
+    grid-row-start: 10;
     text-align: end;
     width: 80%;
     margin: 0%;
@@ -176,36 +176,53 @@ br {
 
 .item-11 {
     grid-column-start: 2;
-    grid-row-start: 9;
+    grid-row-start: 10;
     font-size: 17px;
     margin: 0%;
 }
 
 .item-13 {
     grid-column-start: 2;
-    grid-row-start: 8;
+    grid-row-start: 9;
     font-weight: 800;
     font-size: 35px;
     margin-bottom: 0%;
 }
 
+.povImg {
+    grid-column-start: 2;
+    grid-row-start: 7;
+    width: 95%;
+    padding-left: 5%;
+}
+
 .empathyImg {
     grid-column-start: 1;
-    grid-row-start: 7;
-    width: 80%;
+    grid-row-start: 8;
+    width: 85%;
     padding-left: 20%;
+}
+
+.povTitle {
+    grid-column-start: 1;
+    grid-row-start: 7;
+    font-size: 18px;  
 }
 
 .empathyTitle {
     grid-column-start: 2;
-    grid-row-start: 7;
+    grid-row-start: 8;
     justify-self: center;
     align-self: center;
     padding-left: -20%;
     font-size: 18px;
 }
 
-.empathyTitle > h3 {
+.povTitle > h3 {
+    font-size: 30px;
+}
+
+.empathyTitle > h3, .povTitle > h3 {
     font-size: 30px;
 }
 
