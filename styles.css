@@ -19,7 +19,7 @@ body {
 #footerMenu {
     padding-left: 7%;
     padding-bottom: 5%;
-    grid-row-start: 11;
+    grid-row-start: 13;
 }
 
 #contact {
@@ -182,8 +182,8 @@ br {
 }
 
 .item-13 {
-    grid-column-start: 2;
-    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-row-start: 11;
     font-weight: 800;
     font-size: 35px;
     margin-bottom: 0%;
@@ -201,6 +201,12 @@ br {
     grid-row-start: 8;
     width: 85%;
     padding-left: 20%;
+}
+
+#wireframeImg {
+    grid-column-start: 1;
+    grid-row-start: 12;
+    width: 180%;
 }
 
 .povTitle {
